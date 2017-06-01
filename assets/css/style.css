@@ -1,0 +1,153 @@
+ html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  background-image: url();
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.example-fm {
+    display: flex;
+}
+
+.example-fm .box {
+  height: 750px;
+  width: 300px;
+  border: 2px solid black;
+  position: relative;
+
+
+
+}
+
+.example-fm .box-2 {
+    flex: 1;
+}
+
+
+#scoreline{
+margin-top : 50px;
+margin-bottom:px;
+border-style: dotted dashed solid double;
+
+}
+
+
+#ball {
+  width: 120px;
+  height: 120px;
+  position:absolute;
+  z-index:1;
+}
+
+
+
+/*BALL*/
+
+    #oldball{
+          height: 120px;
+          width: 120px;
+          position: absolute;
+          top:50px;
+          left:50px;
+          border-radius: 50%;
+          display: flex;   
+          flex-wrap: wrap;
+          animation: jump 1s infinite;
+    }
+
+    #lives {
+    width: 40px;
+    height:200px;
+    float: left;
+    position: absolute;
+    left: -40px;
+    }
+.quarter {
+  width: 60px;
+  height: 60px
+}
+.top-left {
+  border-top-left-radius: 200px;
+  background: #1fb14e;
+  float: left
+}
+
+.top-right {
+  border-top-right-radius: 200px;
+  background: #1ba8e0;
+  float: right
+}
+
+.bottom-left {
+  border-bottom-left-radius: 200px;
+  background: #fecc0b;
+  float: left
+}
+
+.bottom-right {
+  border-bottom-right-radius: 200px;
+  background: #de232c;
+  float: right
+}
+
+
+#scoreTable{
+   background-color: red;
+  border-right:60px solid red;
+}
+
+
+/*SCORE MENU*/
+
+ul{
+  padding:0;
+}
+#info{
+  width:150px;
+  border:1px solid gray;
+  background:#444;
+}
+.score{
+  display:inline-block;
+  width:100px;
+  padding:5px;
+  border: 1px dotted  #999999;
+}
+.menu{
+  width:20px;
+  padding:3px 5px;
+  background: #444;
+  border: 1px dotted gray;
+  text-align:center;
+  font-size:1.2em;
+  display:inline-block;
+}
+
+#stats{
+  display:none;
+  background: #444;
+
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+#stats ul li{
+  list-style:none;
+  text-align:right;
+  //margin: 0 5px;
+  padding:0 5%;
+  text-shadow: 0px -1px 0px #333;
+  color:  #999;
+background:#555;
+
+}
+.score{
+  text-shadow: 0px -1px 0px #333;
+  color:  #999;
+  background:#555;
+
+}
