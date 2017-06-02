@@ -15,7 +15,7 @@ var Game = function() {
     var settings = {};                     // Containes all game settings               // force of the ball with each click
     settings.walls = true;                 // The ball can not go outside the screen           // The ball will move by itself              // Debug mode
     settings.dropball = true;
-    settings.gravity = 10;
+    settings.gravity = 5;
     settings.velocityX = 0;
     settings.velocityY = 0;
     settings.distance = 0;
@@ -126,15 +126,6 @@ var Game = function() {
     ///////////////////////////////////////
     /// GAME OVER//////// /////////////////
     ///////////////////////////////////////
-
-      function gameOver(){
-        var temp = document.getElementById('ball');
-        player.gameOver();
-        temp.innerHTML = "Game Over: " + settings.gameover;
-
-
-      }
-
 
 
 

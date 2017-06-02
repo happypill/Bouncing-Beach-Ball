@@ -9,7 +9,7 @@ var Ball = function(settings) {
     var verticalDirection = 'down';
     var horizontalDirection = 'down';
     var velocity = 3;
-
+    var myTimer = setInterval(myTimer,1000)
 
     var Ball = function(x, y, radius) {
 
@@ -106,23 +106,31 @@ var Ball = function(settings) {
 
       console.log(interactions.target.id);
 
-      if(interactions.target.id == 'green' ){
-        verticalDirection = "down";
+      if(interactions.target.id == 'green'){
+        verticalDirection = "up";
+        horizontalDirection = "left";
+        
+        
       }
       if(interactions.target.id == 'yellow'){
         verticalDirection = "up";
+        horizontaldirection = "left";
       }
 
       if(interactions.target.id == 'red'){
         horizontalDirection = "left";
+        verticalDirection = "up";
       }
 
       if(interactions.target.id == 'blue'){
         horizontalDirection = "right";
+        verticalDirection = "up"
       }
-
-      velocity += 40;
+    
+      velocity += 30;
+      settings.gravity = settings.gravity * 1;
     }
+
 
     function moveBall(){
       var ballRect = ballElement.getBoundingClientRect();
@@ -135,7 +143,8 @@ var Ball = function(settings) {
       var h = arenaRect.height;
       var ball = document.getElementById('arena')
       var gameOver = function(){
-            ball.innerHTML = "<h1>Game Over</h1>";
+            ball.innerHTML = "<h1>Game Over</h1>" ;
+
             console.log("Game Over");
             setTimeout(function(){location.reload()}, 2000)
          }
