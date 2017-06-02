@@ -14,7 +14,7 @@ Stack
 
 1.) Using Vanilla Javascript
 
-Credits
+Special thanks to
 
 Jens H. Nielsen - our instructor
 Geng Sng & Iskandar Jamaluddin - our teaching assistants
