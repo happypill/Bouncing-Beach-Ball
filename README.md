@@ -1,4 +1,4 @@
-Bouncing Ball
+Bouncing Beach Ball
 
 Project 1 for WDIGeneral Assembly.
 
