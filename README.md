@@ -1,4 +1,4 @@
-# WDI-Project-1
+#Bouncing Ball
 
 Project 1 for General Assembly.
 
