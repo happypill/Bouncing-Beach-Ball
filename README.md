@@ -6,7 +6,9 @@ To begin ,Open index.html in your browser. This browser game was tested with Goo
 
 Instructions
 1.) Always Bounce the Ball.
+
 2.) Do not drop in the sea.
+
 3.) Score as Many Points as possible
 
 https://github.com/happypill/Bouncing-Beach-Ball
