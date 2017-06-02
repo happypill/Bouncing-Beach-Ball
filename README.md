@@ -1,6 +1,8 @@
-#Bouncing Ball
+Bouncing Ball
 
-Project 1 for General Assembly.
+Project 1 for WDIGeneral Assembly.
+
+To begin ,Open index.html in your browser. This browser game was tested with Google Chrome 58.0.3029.110 (64-bit)
 
 Instructions
 1.) Always Bounce the Ball.
@@ -11,3 +13,9 @@ Instructions
 Stack
 
 1.) Using Vanilla Javascript
+
+Credits
+
+Jens H. Nielsen - our instructor
+Geng Sng & Iskandar Jamaluddin - our teaching assistants
+Alex Min, Elnathan Erh for their help.
