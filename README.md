@@ -18,9 +18,3 @@ Stack
 
 1.) Using Vanilla Javascript
 
-Special thanks to
-
-Jens H. Nielsen - our instructor
-Geng Sng & Iskandar Jamaluddin - our teaching assistants
-
-Alex Min, Elnathan Erh for their help.
